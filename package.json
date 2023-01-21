@@ -1,7 +1,9 @@
 {
   "name": "console-log-remover",
   "displayName": "console log remover",
+  "publisher": "MuhammadIkrambinAzhar",
   "description": "remove conlog",
+  "icon": "images/logo.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
@@ -10,13 +12,17 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:console-log-remover.helloWorld"
+    "onCommand:console-log-remover.logrm",
+    "onCommand:console-log-remover.logcmt"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "console-log-remover.helloWorld",
-      "title": "Hello World"
+      "command": "console-log-remover.logrm",
+      "title": "Log remove"
+    }, {
+      "command": "console-log-remover.logcmt",
+      "title": "Log Comment"
     }]
   },
   "scripts": {
