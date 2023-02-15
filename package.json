@@ -1,10 +1,10 @@
 {
   "name": "console-log-remover",
-  "displayName": "console log remover",
+  "displayName": "Console Log Remover",
   "publisher": "MuhammadIkrambinAzhar",
-  "description": "remove conlog",
+  "description": "Remove or comment all console.log() at once",
   "icon": "images/logo.png",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.74.0"
   },
